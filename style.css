@@ -18,7 +18,7 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 body {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     background-color: hsl(225, 100%, 94%);
     cursor: default;
@@ -61,7 +61,7 @@ body {
     color: hsl(224, 23%, 55%);
     text-align: center;
     width: 17em;
-    font-size: 0.98em;
+    font-size: 1em;
     line-height: 1.8em;
 }
 .plan {
@@ -74,7 +74,6 @@ body {
 .note-img {
     width: 2.6em;
     height: 2.6em;
-
 }
 .p-header {
     position: relative;
@@ -139,4 +138,10 @@ body {
 }
 .cancel-btn:active {
     color: #000;
+}
+@media screen and (min-width: 550px) {
+    body { font-size: 16px; }
+    .card { padding: 1.8em; height: 35em; }
+    .music-img { height: 12.8em; width: 25.6em;
+        margin: -1.8em 0 0; }
 }
