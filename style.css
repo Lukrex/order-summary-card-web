@@ -27,6 +27,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -998;
+    height: 50vh;
+    width: 100vw;
+    display: none;
+}
+.background-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -999;
     height: 50vh;
     width: 100vw;
@@ -144,4 +153,6 @@ body {
     .card { padding: 1.8em; height: 35em; }
     .music-img { height: 12.8em; width: 25.6em;
         margin: -1.8em 0 0; }
+    .background { display: block; }
+    .background-mobile { display: none; }
 }
